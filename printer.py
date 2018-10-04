@@ -20,5 +20,6 @@ backgroundPink = "45"
 backgroundCyan = "46"
 backgroundWhite = "47"
 
-def printWithColor(message, color):
+
+def print_color_text(message, color):
     print(tag + "[" + color + "m" + message + tag + "[" + default + "m")

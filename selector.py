@@ -6,9 +6,7 @@ def select(items):
     selected = -1
 
     while selected < 0 or selected >= len(items):
-
         selected = input("\033[32m請選擇：\033[0m")
-
         if selected.isnumeric():
             selected = int(selected)
         else:
